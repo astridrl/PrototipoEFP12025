@@ -1,8 +1,8 @@
 //Clase para mantenimiento de clientes
-//Programado por Dulce Martìnez 02/05/25
+//Programado por Astrid Ruíz 02/05/25
 
 //Actualizaciones y correcciiones
-//Programado por Dulce Martìnez 11/05/25
+//Programado por Astriz Ruíz 11/05/25
 
 #include "habitacion.h"
 #include "bitacora.h"

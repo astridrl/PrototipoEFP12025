@@ -9,3 +9,5 @@
 10        Maria       3535       
 11        Nath       1122       
 12        Mario       9000       
+4        Astrid Ruiz 9959242976       2020       
+7        Astridruiz9959242976       3030       

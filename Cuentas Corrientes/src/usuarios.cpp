@@ -34,7 +34,7 @@ bool usuarios::loginUsuarios(){
         cout<<"\t\t   INGRESO DE USUARIOS   "<<endl;
         cout<<"\t\t-------------------------"<<endl<<endl;
 
-        cout<<"\t\tUsuario: ";
+        cout<<"\t\tUsuario(coloque su carnet y nombre completo): ";
         getline(cin, usuario);
 
         cout<<"\n\t\tContraseña: ";
@@ -96,7 +96,7 @@ bool usuarios::registrarUsuario() {
     cout << "\t\tIngrese ID: ";
     getline(cin, nuevoId);
 
-    cout << "\t\tIngrese Nombre: ";
+    cout << "\t\tIngrese Nombre (coloque su carnet y nombre completo): ";
     getline(cin, nuevoNombre);
 
     cout << "\t\tIngrese Contraseña: ";

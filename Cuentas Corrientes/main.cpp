@@ -213,7 +213,7 @@ void menuGeneral(){
     do{
         system("cls"); // Limpia la pantalla
         cout << "\t\t\tUsuario en linea: " << usuariosrRegistrado.getNombre() << "\n" << endl;
-        cout << "\n\n\t\tCuentas por Cobrar - Menu" << endl;
+        cout << "\n\n\t\tHabitacion - Menu" << endl;
         cout << "\t\t------------------------" << endl;
         cout << "\t\t1. Menu de Catalogos" << endl;
         cout << "\t\t2. Menu de Informes" << endl;
