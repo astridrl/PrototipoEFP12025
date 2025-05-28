@@ -1,0 +1,4 @@
+1              Grande         KING           2000           
+2              Mediana        Imperial       2333           disponible     
+1                           Grande         KING           2000           2              Mediana        Imperial       
+2333                     disponible          2              Mediana        Imperial       

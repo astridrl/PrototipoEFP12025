@@ -399,11 +399,12 @@
 	<conio.h>
 	<iomanip>
 
-1746423599 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\catalogos.cpp
+1748449793 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\catalogos.cpp
 	"catalogos.h"
 	"cliente.h"
 	"proveedor.h"
 	"acreedor.h"
+	"habitacion.h"
 	<iostream>
 
 1746423599 c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\include\catalogos.h
@@ -475,4 +476,27 @@
 	<sstream>
 	"bitacora.h"
 	<limits>
+
+1748448724 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\main.cpp
+	<iostream>
+	<cstdlib>
+	"usuarios.h"
+	"catalogos.h"
+	"procesos.h"
+	"bitacora.h"
+	<limits>
+
+1748450587 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\habitacion.cpp
+	"habitacion.h"
+	"bitacora.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"usuarios.h"
+
+1748450307 c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\include\habitacion.h
+	<iostream>
 
