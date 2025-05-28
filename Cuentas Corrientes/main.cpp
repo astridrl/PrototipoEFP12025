@@ -5,9 +5,12 @@
 #include "catalogos.h"
 #include "procesos.h"
 #include "bitacora.h"
+#include "habitacion.h"
 #include <limits>
 
 using namespace std;
+
+extern habitacion habitaciones;
 
 void menuGeneral();
 void menuInicio();
@@ -103,38 +106,42 @@ void menuUsuarios() {
     do {
         system("cls");
         cout << "\t\t\t-------------------------------------------------------" << endl;
-        cout << "\t\t\t | SISTEMA GESTION DE SEGURIDAD - Catálogos Usuarios |" << endl;
+        cout << "\t\t\t | SISTEMA GESTION DE SEGURIDAD - Catálogo Habitacion|" << endl;
         cout << "\t\t\t-------------------------------------------------------" << endl;
-        cout << "\t\t\t 1. Ingreso Usuarios" << endl;
-        cout << "\t\t\t 2. Consulta Usuarios" << endl;
-        cout << "\t\t\t 3. Modificación Usuarios" << endl;
-        cout << "\t\t\t 4. Eliminación Usuarios" << endl;
-        cout << "\t\t\t 5. Retornar al menú anterior" << endl;
+        cout << "\t\t\t 1. Despliego de bitacora" << endl;
+        cout << "\t\t\t 2. Ingreso Usuarios" << endl;
+        cout << "\t\t\t 3. Consulta Usuarios" << endl;
+        cout << "\t\t\t 4. Modificación Usuarios" << endl;
+        cout << "\t\t\t 5. Eliminación Usuarios" << endl;
+        cout << "\t\t\t 6. Retornar al menú anterior" << endl;
         cout << "\t\t\t-------------------------------------------------------" << endl;
         cout << "\t\t\tIngrese una opción: ";
         cin >> choice;
 
         switch (choice) {
         case 1:
-            usuariosrRegistrado.registrarUsuario();
+            auditorias.menu ();
             break;
         case 2:
+            usuariosrRegistrado.registrarUsuario();
+            break;
+        case 3:
             usuariosrRegistrado.consultarUsuarios();
             system("pause"); // <-- Pausa para que se lean los mensajes
             break;
-        case 3:
+        case 4:
             usuariosrRegistrado.modificarUsuario();
             break;
-        case 4:
+        case 5:
             usuariosrRegistrado.eliminarUsuario();
             break;
-        case 5:
+        case 6:
             break;
         default:
             cout << "n\t\tOpción no válida. Intente de nuevo" << endl;
         }
 
-    } while (choice != 5);
+    } while (choice != 6);
 }
 
 
@@ -191,7 +198,7 @@ void menuInformes() {
 
         switch (opcion) {
             case 1:
-//                pag.reporteCuentasPorPagar(); //Muestra todas las facturas pendientes de pago
+            habitaciones.reporte ();
             case 2:
                 break;
             default:

@@ -399,7 +399,7 @@
 	<conio.h>
 	<iomanip>
 
-1748449793 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\catalogos.cpp
+1748450749 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\catalogos.cpp
 	"catalogos.h"
 	"cliente.h"
 	"proveedor.h"
@@ -486,7 +486,7 @@
 	"bitacora.h"
 	<limits>
 
-1748450587 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\habitacion.cpp
+1748450749 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\habitacion.cpp
 	"habitacion.h"
 	"bitacora.h"
 	<iostream>
@@ -497,6 +497,6 @@
 	<iomanip>
 	"usuarios.h"
 
-1748450307 c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\include\habitacion.h
+1748450749 c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\include\habitacion.h
 	<iostream>
 
