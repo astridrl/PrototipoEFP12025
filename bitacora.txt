@@ -1,0 +1,35 @@
+commit d89cfe95bf77f0b6e8b1158f09a162e7450c6cb2
+Author: [Astrid Ruíz] <[astridruizz05@gmail.com]>
+Date:   Wed May 28 11:13:16 2025 -0600
+
+    terminado de subir todo
+
+commit 22cf3dfd39ed6b47c67c4b4e92eb80c9a08ddcf2
+Author: [Astrid Ruíz] <[astridruizz05@gmail.com]>
+Date:   Wed May 28 10:59:19 2025 -0600
+
+    Enviando reportes
+
+commit aaa188dea54b1451b981749d0137b46c10e4090e
+Author: [Astrid Ruíz] <[astridruizz05@gmail.com]>
+Date:   Wed May 28 10:44:52 2025 -0600
+
+    Subiendo CRUD de habitacion
+
+commit 79cced3bb3437a2e80fe2b9c211b1c91b1503089
+Author: [Astrid Ruíz] <[astridruizz05@gmail.com]>
+Date:   Wed May 28 10:11:27 2025 -0600
+
+    Subiendo menu principal
+
+commit 70e0bcdb118501790628f4404832c6382adc61ad
+Author: [Astrid Ruíz] <[astridruizz05@gmail.com]>
+Date:   Wed May 28 10:02:18 2025 -0600
+
+    Subiendo codigo base
+
+commit 7ba20f4d4d0b6364bf9e969e6ebc248987cdc293
+Author: astridrl <astridruizz05@gmail.com>
+Date:   Wed May 28 09:51:07 2025 -0600
+
+    Initial commit
