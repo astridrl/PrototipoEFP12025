@@ -172,16 +172,45 @@ void menuBackup() {
     } while (opcion != 3);
 }
 
+void menuInformes() {
+    //pago pag;
+//Factura fac;
+    //GestionCobros cob;
+
+    int opcion;
+    do {
+        system("cls");
+        cout << "\t\t\tUsuario en linea: " << usuariosrRegistrado.getNombre() << "\n" << endl;
+        cout<<"\t\t\t-------------------------------"<<endl;
+        cout<<"\t\t\t |   Menu de reportes      |"<<endl;
+        cout<<"\t\t\t-------------------------------"<<endl;
+        cout <<"\t\t\t1. Reporte" << endl;
+        cout <<"\t\t\t2. Salir" << endl;
+        cout <<"\n\t\tIngresa tu Opcion: ";
+        cin >> opcion;
+
+        switch (opcion) {
+            case 1:
+//                pag.reporteCuentasPorPagar(); //Muestra todas las facturas pendientes de pago
+            case 2:
+                break;
+            default:
+                cout << "\t\tOpción inválida..." << endl;
+                system("pause");
+        }
+    } while (opcion != 2);
+}
+
 void menuGeneral(){
     int opciones;
     do{
         system("cls"); // Limpia la pantalla
+        cout << "\t\t\tUsuario en linea: " << usuariosrRegistrado.getNombre() << "\n" << endl;
         cout << "\n\n\t\tCuentas por Cobrar - Menu" << endl;
         cout << "\t\t------------------------" << endl;
         cout << "\t\t1. Menu de Catalogos" << endl;
-        cout << "\t\t2. Menu de Procesos" << endl;
-        cout << "\t\t3. Menu de Reportes" << endl;
-        cout << "\t\t4. Menu de Configuracion" << endl;
+        cout << "\t\t2. Menu de Informes" << endl;
+        cout << "\t\t3. Menu de Seguridad" << endl;
         cout << "\t\t5. Menu de Bitacora" << endl;
         cout << "\t\t6. Menu de Archivos (Usuarios)" << endl;
         cout << "\t\t7. Salir" << endl;
@@ -193,10 +222,10 @@ void menuGeneral(){
                 catalogo.menuCatalogos();
                 break;
             case 2:
-                menuProcesos();
+                menuInformes();
                 break;
             case 3:
-                //menuReportes();
+                menuUsuarios();
                 break;
             case 4:
                 //menuConfiguracion();

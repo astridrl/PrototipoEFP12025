@@ -372,3 +372,107 @@
 	"bitacora.h"
 	<limits>
 
+1748417441 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\acreedor.cpp
+	"acreedor.h"
+	"bitacora.h"
+	"usuarios.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<conio.h>
+	<iomanip>
+
+1748417425 c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\include\acreedor.h
+	<iostream>
+
+1748393503 c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\include\bitacora.h
+	<iostream>
+
+1746943200 c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\include\usuarios.h
+	<string>
+
+1748400060 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\bitacora.cpp
+	"bitacora.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1746423599 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\catalogos.cpp
+	"catalogos.h"
+	"cliente.h"
+	"proveedor.h"
+	"acreedor.h"
+	<iostream>
+
+1746423599 c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\include\catalogos.h
+
+1748416501 c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\include\cliente.h
+	<iostream>
+
+1748417799 c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\include\proveedor.h
+	<iostream>
+
+1748416349 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\cliente.cpp
+	"cliente.h"
+	"bitacora.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	"usuarios.h"
+
+1746460537 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\factura.cpp
+	"factura.h"
+	<iostream>
+	<fstream>
+	<sstream>
+
+1746460537 c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\include\factura.h
+	<iostream>
+	<fstream>
+	<string>
+
+1746460537 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\procesos.cpp
+	<iostream>
+	"procesos.h"
+	"transaccion.h"
+	"factura.h"
+
+1746460537 c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\include\procesos.h
+
+1746437860 c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\include\transaccion.h
+	<iostream>
+	<fstream>
+	<string>
+
+1748417749 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\proveedor.cpp
+	"proveedor.h"
+	"bitacora.h"
+	"usuarios.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<conio.h>
+	<iomanip>
+
+1746437860 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\transaccion.cpp
+	"transaccion.h"
+	"bitacora.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1746952398 source:c:\users\astri\onedrive\documentos\programación i\prototipoefp12025\cuentas corrientes\src\usuarios.cpp
+	"usuarios.h"
+	<fstream>
+	<cstdlib>
+	<conio.h>
+	<iostream>
+	<sstream>
+	"bitacora.h"
+	<limits>
+
